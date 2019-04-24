@@ -30,6 +30,6 @@ public class UserController {
     }
     @RequestMapping(value = "/sayHello",method = RequestMethod.GET) // 测试用
     public String sayHello(){
-        return "hello，这是我的微信小程序，乐享生活!!!";
+        return "hello，这是我的微信小程序，乐享生活!!";
     }
 }
